@@ -33,7 +33,8 @@
             function nextQuestion() {
                 submt = true;
                 $('#explanation').empty();
-                $('#question').html(htmlEncode(quiz[currentquestion]['question']));
+                $('#question').html('<h1>Test</h1>');
+                // $('#question').html(htmlEncode(quiz[currentquestion]['question']));
                 $('#pager').text('Question ' + Number(currentquestion + 1) + ' of ' + quiz.length);
                 if (quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != "") {
                     if ($('#question-image').length == 0) {
