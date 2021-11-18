@@ -132,6 +132,7 @@ img.question-image {
     border-left: 10px solid black;
     padding: 8px;
     direction: rtl;
+    line-height: 100%;
       }
   .download{
     text-align: center;
@@ -153,6 +154,7 @@ img.question-image {
     font-weight: bolder;
     background-color: yellow;
     direction: rtl;
+    line-height: 100%;
   }
   .instructions{
     border:2px solid black;
@@ -163,4 +165,6 @@ img.question-image {
     background-color:tomato; 
     color:#FFFFFF;
     direction: rtl;
+        line-height: 100%;
+
   }
