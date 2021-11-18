@@ -1,7 +1,3 @@
-var clickedWord=""
-var ans1=["were taking","came","are doing","was cooking","were watching","is your mother cooking","was reading","heard","are you revising","were doing","opened","is playing","was washing","cut","is not sleeping","is still playing","is writing","was riding","started"]
-    // JS Code for checking the answers
-
 function checkAnsBoxAnswersV2(ansCode,exNum){ 
   var ca=0
   for(var c=0;c<ansCode.length;c++){
