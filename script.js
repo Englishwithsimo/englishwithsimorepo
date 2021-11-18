@@ -34,7 +34,7 @@
                 submt = true;
                 $('#explanation').empty();
                 $('#question').html('<h1>Test</h1>');
-                // $('#question').html(htmlEncode(quiz[currentquestion]['question']));
+                $('#question').html(quiz[currentquestion]['question']);
                 $('#pager').text('Question ' + Number(currentquestion + 1) + ' of ' + quiz.length);
                 if (quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != "") {
                     if ($('#question-image').length == 0) {
@@ -152,7 +152,7 @@
                     $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Question 1 of ' +
                         quiz.length).appendTo('#frame');
                     //add first question
-                    $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[0][
+                    $(document.createElement('h2')).addClass('question').attr('id', 'question').html(quiz[0][
                         'question'
                     ]).appendTo('#frame');
                     //add image if present
