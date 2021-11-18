@@ -6,6 +6,7 @@
     width: 100%;
     display : flex;
     justify-content: center;
+    direction : ltr;
 }
 
 div, span, h1, h2, h3, h4, h5, h6, p, code, small, strike, strong, sub, sup, b, u, i {
@@ -89,8 +90,9 @@ img.question-image {
     width: 75%;
 }
 .choice-box {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 8px auto;
     padding: 10px 0;
     border: 1px solid #666;
@@ -98,6 +100,8 @@ img.question-image {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    height: 50px;
+    font-size: 1.5rem;
 }
 .videoWrapper {
  position: relative;
