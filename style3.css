@@ -182,4 +182,11 @@ img.question-image {
     border: 2px solid navy;
     padding: 5px;
     width: auto;
+    background-color:wheat;
   } 
+.thead{
+    border:2px solid navy;
+    padding: 5px;
+    width: auto; 
+    background-color: yellow;
+}
