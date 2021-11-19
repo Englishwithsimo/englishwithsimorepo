@@ -177,15 +177,16 @@ img.question-image {
     margin-right: auto;
     text-align:center;
     font-weight: bold;
+    background-color: #7FB3D5;
   }
   .tdata{
-    border: 2px solid navy;
+    border: 1px solid black;
     padding: 5px;
     width: auto;
     background-color:wheat;
   } 
 .thead{
-    border:2px solid navy;
+    border:1px solid black;
     padding: 5px;
     width: auto; 
     background-color: yellow;
