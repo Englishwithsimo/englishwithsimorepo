@@ -169,3 +169,17 @@ img.question-image {
     color:#FFFFFF;
     direction: rtl;
   }
+  .toptions{
+    border: 5px solid black;
+    width: auto;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-weight: bold;
+  }
+  .tdata{
+    border: 2px solid navy;
+    padding: 5px;
+    width: auto;
+  } 
