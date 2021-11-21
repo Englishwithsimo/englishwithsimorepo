@@ -184,6 +184,7 @@ img.question-image {
     font-weight: bold;
     background-color: #7FB3D5;
     font-size: large;
+    direction:ltr;
   }
   .tdata{
     border: 1px solid black;
@@ -192,6 +193,7 @@ img.question-image {
     background-color:wheat;
     text-align: left;
     vertical-align: top;
+    direction:ltr;
   } 
 .thead{
     border:1px solid black;
@@ -200,4 +202,6 @@ img.question-image {
     background-color: yellow;
     color: red;
     text-align:center;
+    direction:ltr;
+
 }
