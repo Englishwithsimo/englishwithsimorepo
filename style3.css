@@ -194,6 +194,7 @@ img.question-image {
     text-align: left;
     vertical-align: top;
     direction:ltr;
+    line-height: 200%;
   } 
 .thead{
     border:1px solid black;
