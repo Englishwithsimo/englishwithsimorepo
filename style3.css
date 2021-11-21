@@ -184,6 +184,7 @@ img.question-image {
     padding: 5px;
     width: auto;
     background-color:wheat;
+    text-align: left;
   } 
 .thead{
     border:1px solid black;
@@ -191,4 +192,5 @@ img.question-image {
     width: auto; 
     background-color: yellow;
     color: red;
+    text-align:center;
 }
