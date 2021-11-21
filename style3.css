@@ -82,6 +82,7 @@ img.question-image {
     margin: 0;
     padding: 0;
     color:back;
+    line-height: normal;
 }
 #submitbutton {
     background: #009688;
