@@ -127,14 +127,14 @@ img.question-image {
    width: calc((100% - 4px) / 3);
 }
  .sectiontitle{
-    border: 0px solid black;
+    border: 3px solid black;
     text-align: center;
     border-radius: 1px;
     background-color: #FFEFD5;
     font-size: x-large;
     font-weight: bolder;
-    border-right: 10px solid black;
-    border-left: 10px solid black;
+    border-right: 15px solid black;
+    border-left: 15px solid black;
     padding: 8px;
     direction: rtl;
     line-height: normal;
