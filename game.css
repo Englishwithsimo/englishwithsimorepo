@@ -132,6 +132,7 @@ width:100%;
  display: inline-block;
  border-radius: 50%;
  margin-right:5px;
+ direction:ltr:
 }
 
 .answers-tracker div.correct{
