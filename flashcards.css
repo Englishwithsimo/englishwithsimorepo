@@ -42,6 +42,27 @@
             margin-bottom: 10px;
             font-size: 1.2em;
         }
+.audio-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .audio-button:hover {
+            background-color: #45a049;
+        }
+        
+        .audio-button:focus {
+            outline: none;
+        }
         
         @media screen and (max-width: 1200px) {
             .flashcard {
