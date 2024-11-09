@@ -35,5 +35,5 @@
                 input.parentElement.querySelector('.result-icon').innerHTML = '';
             });
             currentScore = 0;
-            scoreButton.textContent = 'Score: 0/3';
+            scoreButton.textContent = 'Score: 0/10';
         }
