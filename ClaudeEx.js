@@ -23,7 +23,7 @@
                 }
             });
             
-            scoreButton.textContent = `Score: ${currentScore}/3`;
+            scoreButton.textContent = `Score: ${currentScore}/10`;
         }
         
         function clearAnswers() {
