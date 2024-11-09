@@ -19,6 +19,8 @@
             align-items: center;
             gap: 10px;
             flex-wrap: wrap;
+             direction:ltr;
+            text-align:left;
         }
 
         input {
