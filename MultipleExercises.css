@@ -7,7 +7,7 @@
           direction:ltr;
         }
 
-        h1 {
+        .ExQuestion {
             margin-bottom: 20px;
             color:red;
         }
