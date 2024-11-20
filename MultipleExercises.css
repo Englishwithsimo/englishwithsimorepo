@@ -16,7 +16,7 @@
 
         .sentence {
             line-height:200%;
-            display: flex;
+            display: inline;
             align-items: center;
             gap: 10px;
             flex-wrap: wrap;
