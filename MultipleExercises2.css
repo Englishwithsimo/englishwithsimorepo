@@ -17,9 +17,6 @@
     line-height: 200%;
     font-size: large;
     font-weight: bold;
-    display: inline-flex;    /* Added */
-    align-items: baseline;   /* Added */
-    flex-wrap: wrap;        /* Added */
 }
 
 input {
