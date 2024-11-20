@@ -20,6 +20,8 @@
             align-items: center;
             gap: 10px;
             flex-wrap: wrap;
+            font-size:large;
+            font-weight:bold;
         }
 
         input {
