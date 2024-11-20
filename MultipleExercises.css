@@ -9,7 +9,8 @@
 
         .ExQuestion {
             margin-bottom: 20px;
-            color:red;
+            color:darkblue;
+            font-size:large;
         }
 
         .sentence {
