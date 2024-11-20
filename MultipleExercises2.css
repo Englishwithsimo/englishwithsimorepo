@@ -34,8 +34,6 @@ input {
     display: inline;
     text-align: center;
     font-weight: bold;
-    padding: 2px 4px;     /* Added */
-    margin: 0 2px;        /* Added */
 }
 
 .buttons {
