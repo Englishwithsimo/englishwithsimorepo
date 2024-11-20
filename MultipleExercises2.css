@@ -28,7 +28,7 @@ input {
     width: 80px;
     min-width: 80px;
     max-width: 80px;
-    display: inline;
+    display: inline-flex;
     text-align: center;
     font-weight: bold;
 }
