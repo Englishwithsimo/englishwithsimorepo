@@ -2,6 +2,7 @@
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 10px;
+            direction:ltr;
         }
         
         .flashcard {
@@ -9,6 +10,7 @@
             border-radius: 8px;
             padding: 10px;
             text-align: center;
+            direction:ltr;
         }
         
         .image-container {
