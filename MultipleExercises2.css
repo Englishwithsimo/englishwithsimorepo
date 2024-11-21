@@ -4,6 +4,8 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     direction: ltr;
+    padding:10px;
+    border-left: 10px solid black;
 }
 
 .ExQuestion {
@@ -16,7 +18,6 @@
 .sentence {
     line-height: 200%;
     font-size: large;
-    font-weight: bold;
 }
 
 input {
