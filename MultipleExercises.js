@@ -1,23 +1,23 @@
-function checkAnswers(exerciseId) {
+ function checkAnswers(exerciseId) {
     // Get the exercise number from the id
     const exerciseNum = exerciseId.replace('exercise', '');
     const container = document.getElementById(exerciseId);
-    const inputs = container.querySelectorAll('input');
+    const elements = container.querySelectorAll('input, select');
     let score = 0;
-    const totalQuestions = inputs.length;
+    const totalQuestions = elements.length;
 
-    inputs.forEach(input => {
-        const correct = input.getAttribute('data-answer');
-        const userAnswer = input.value.trim().toLowerCase();
-        const checkSpan = input.nextElementSibling;
+    elements.forEach(element => {
+        const correct = element.getAttribute('data-answer');
+        const userAnswer = element.value.trim().toLowerCase();
+        const checkSpan = element.nextElementSibling;
 
         if (userAnswer === correct) {
-            input.className = 'correct';
+            element.className = 'correct';
             checkSpan.innerHTML = '✓';
             checkSpan.style.color = '#4CAF50';
             score++;
         } else {
-            input.className = 'incorrect';
+            element.className = 'incorrect';
             checkSpan.innerHTML = '✗';
             checkSpan.style.color = '#f44336';
         }
@@ -30,12 +30,16 @@ function clearAnswers(exerciseId) {
     // Get the exercise number from the id
     const exerciseNum = exerciseId.replace('exercise', '');
     const container = document.getElementById(exerciseId);
-    const inputs = container.querySelectorAll('input');
+    const elements = container.querySelectorAll('input, select');
     
-    inputs.forEach(input => {
-        input.value = '';
-        input.className = '';
-        input.nextElementSibling.innerHTML = '';
+    elements.forEach(element => {
+        if (element.tagName.toLowerCase() === 'select') {
+            element.selectedIndex = 0; // Reset select to first option
+        } else {
+            element.value = ''; // Clear input value
+        }
+        element.className = '';
+        element.nextElementSibling.innerHTML = '';
     });
     
     document.getElementById(`score${exerciseNum}`).textContent = '';
