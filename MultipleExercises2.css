@@ -6,6 +6,7 @@
     direction: ltr;
     padding:10px;
     border-left: 20px solid black;
+    width:100%;
 }
 
 .ExQuestion {
